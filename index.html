@@ -31,68 +31,83 @@
 
   <!-- Timeline Cards Section -->
   <section>
+    <!-- Timeline cards are now inside a horizontally scrollable container -->
+    <div class="timeline-cards">
+      <!-- Card 1: Early Days -->
+      <div onclick="window.open('https://www.intel.com/content/www/us/en/history/virtual-vault/articles/intels-founding.html', '_blank');" style="cursor:pointer;">
+        <div class="card-main">
+          <h2>1968</h2>
+          <h3>Founding and First Innovations</h3>
+          <img src="img/1.jpg" alt="Intel Founding" />
+        </div>
+        <div class="card-description">
+          Intel is founded and begins its journey of technological innovation, setting the stage for decades of progress in computing.
+        </div>
+      </div>
 
-    <!-- Card 1: Early Days -->
-    <div onclick="window.open('https://www.intel.com/content/www/us/en/history/virtual-vault/articles/intels-founding.html', '_blank');" style="cursor:pointer;">
-      <h2>1968</h2>
-      <h3>Founding and First Innovations</h3>
-      <img src="img/1.jpg" alt="Intel Founding" />
-      <p>
-        Intel is founded and begins its journey of technological innovation, setting the stage for decades of progress in computing.
-      </p>
-    </div>
+      <!-- Card 2: Microprocessor Revolution -->
+      <div onclick="window.open('https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-intel-4004.html', '_blank');" style="cursor:pointer;">
+        <div class="card-main">
+          <h2>1971</h2>
+          <h3>Microprocessor Revolution</h3>
+          <img src="img/2.jpg" alt="Microprocessor" />
+        </div>
+        <div class="card-description">
+          Intel introduces groundbreaking microprocessors, powering personal computers and transforming technology for everyone.
+        </div>
+      </div>
 
-    <!-- Card 2: Microprocessor Revolution -->
-    <div onclick="window.open('https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-intel-4004.html', '_blank');" style="cursor:pointer;">
-      <h2>1971</h2>
-      <h3>Microprocessor Revolution</h3>
-      <img src="img/2.jpg" alt="Microprocessor" />
-      <p>
-        Intel introduces groundbreaking microprocessors, powering personal computers and transforming technology for everyone.
-      </p>
-    </div>
+      <!-- Card 3: PC Era -->
+      <div onclick="window.open('https://www.intel.com/content/dam/doc/report/history-1980-annual-report.pdf', '_blank');" style="cursor:pointer;">
+        <div class="card-main">
+          <h2>1980s-1990s</h2>
+          <h3>Expanding Possibilities</h3>
+          <img src="img/3.jpg" alt="PC Era" />
+        </div>
+        <div class="card-description">
+          The rise of the personal computer brings Intel technology into homes and businesses around the world.
+        </div>
+      </div>
 
-    <!-- Card 3: PC Era -->
-    <div onclick="window.open('https://www.intel.com/content/dam/doc/report/history-1980-annual-report.pdf', '_blank');" style="cursor:pointer;">
-      <h2>1980s-1990s</h2>
-      <h3>Expanding Possibilities</h3>
-      <img src="img/3.jpg" alt="PC Era" />
-      <p>
-        The rise of the personal computer brings Intel technology into homes and businesses around the world.
-      </p>
-    </div>
+      <!-- Card 4: Environmental Awareness -->
+      <div onclick="window.open('https://www.intc.com/intel-online-annual-report/our-capital/natural-capital', '_blank');" style="cursor:pointer;">
+        <div class="card-main">
+          <h2>2000s</h2>
+          <h3>Environmental Awareness</h3>
+          <img src="img/4.jpg" alt="Environmental Awareness" />
+        </div>
+        <div class="card-description">
+          Intel begins investing in renewable energy, efficient manufacturing, and environmental initiatives to reduce its impact.
+        </div>
+      </div>
 
-    <!-- Card 4: Environmental Awareness -->
-    <div onclick="window.open('https://www.intc.com/intel-online-annual-report/our-capital/natural-capital', '_blank');" style="cursor:pointer;">
-      <h2>2000s</h2>
-      <h3>Environmental Awareness</h3>
-      <img src="img/4.jpg" alt="Environmental Awareness" />
-      <p>
-        Intel begins investing in renewable energy, efficient manufacturing, and environmental initiatives to reduce its impact.
-      </p>
-    </div>
+      <!-- Card 5: Modern Commitments -->
+      <div onclick="window.open('https://www.intc.com/intel-online-annual-report/our-capital/natural-capital', '_blank');" style="cursor:pointer;">
+        <div class="card-main">
+          <h2>2020</h2>
+          <h3>Modern Commitments</h3>
+          <!-- Set width and height to match other cards, use object-fit for perfect fit -->
+          <img src="img/intel2.jpg" alt="Modern Commitments - Sustainability" style="width:220px; height:100px; object-fit:cover; border-radius:10px;" />
+        </div>
+        <div class="card-description">
+          The company sets bold goals for climate action, water stewardship, and waste reduction, aiming for a more sustainable future.
+        </div>
+      </div>
 
-    <!-- Card 5: Modern Commitments -->
-    <div onclick="window.open('https://www.intc.com/intel-online-annual-report/our-capital/natural-capital', '_blank');" style="cursor:pointer;">
-      <h2>2020</h2>
-      <h3>Modern Commitments</h3>
-      <!-- Set width and height to match other cards, use object-fit for perfect fit -->
-      <img src="img/intel2.jpg" alt="Modern Commitments - Sustainability" style="width:220px; height:100px; object-fit:cover; border-radius:10px;" />
-      <p>
-        The company sets bold goals for climate action, water stewardship, and waste reduction, aiming for a more sustainable future.
-      </p>
+      <!-- Card 6: Looking Ahead -->
+      <div onclick="window.open('https://www.intc.com/news-events/press-releases/detail/1732/remaking-our-company-for-the-future', '_blank');" style="cursor:pointer;">
+        <div class="card-main">
+          <h2>Future</h2>
+          <h3>Innovating for Tomorrow</h3>
+          <!-- Set width and height to match other cards, use object-fit for perfect fit -->
+          <img src="img/intel3.jpg" alt="Looking Ahead - Green Future" style="width:220px; height:100px; object-fit:cover; border-radius:10px;" />
+        </div>
+        <div class="card-description">
+          Intel aims to advance AI, quantum computing, energy-efficient chips, and integrated photonics to power next-generation computing and connectivity.
+        </div>
+      </div>
     </div>
-
-    <!-- Card 6: Looking Ahead -->
-    <div onclick="window.open('https://www.intc.com/news-events/press-releases/detail/1732/remaking-our-company-for-the-future', '_blank');" style="cursor:pointer;">
-      <h2>Future</h2>
-      <h3>Innovating for Tomorrow</h3>
-      <!-- Set width and height to match other cards, use object-fit for perfect fit -->
-      <img src="img/intel3.jpg" alt="Looking Ahead - Green Future" style="width:220px; height:100px; object-fit:cover; border-radius:10px;" />
-      <p>
-        Intel aims to advance AI, quantum computing, energy-efficient chips, and integrated photonics to power next-generation computing and connectivity.
-      </p>
-    </div>
+    <!-- End of timeline-cards -->
   </section>
   <p>Scroll to view timeline | Hover over and click the cards to learn more!</p>
 </body>
