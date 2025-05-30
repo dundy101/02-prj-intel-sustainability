@@ -1,50 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Tells the browser this is an HTML5 document -->
+<html lang="en"> <!-- The root element of the page, with language set to English -->
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Intel: Sustainability Through the Ages</title>
+  <meta charset="UTF-8" /> <!-- Sets the character encoding to UTF-8 (supports most characters) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Makes the page responsive on mobile devices -->
+  <title>Intel: Sustainability Through the Ages</title> <!-- The title shown in the browser tab -->
   <!-- Google Fonts: Rajdhani for header, Inter for body -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rajdhani:wght@700&display=swap" rel="stylesheet"> <!-- Loads custom fonts from Google Fonts -->
+  <link rel="stylesheet" href="style.css" /> <!-- Links to the external CSS file for styling -->
 </head>
 <body>
-
   <!-- Header / Hero Section -->
-  <header>
-    <div>
+  <header> <!-- The top section of the page, usually contains logo and main heading -->
+    <div> <!-- A container to group header content -->
       <!-- Ask Copilot to teach you about `.svg` 🙂 -->
-      <img src="img/intel-header-logo.svg" alt="Intel Logo" />
+      <img src="img/intel-header-logo.svg" alt="Intel Logo" /> <!-- Displays the Intel logo image -->
       <!-- Main Heading -->
       <h1>
-        Sustainability Through the Ages
+        Sustainability Through the Ages <!-- The main title of the page -->
       </h1>
-
       <!-- Subheading / Description -->
       <p>
         Explore Intel's journey through time, discovering how our commitment
         to innovation has shaped a more sustainable future for technology 
         and our planet.
+        <!-- A short description under the main heading -->
       </p>
     </div>
   </header>
-
   <!-- Timeline Cards Section -->
-  <section>
+  <section> <!-- A section for the timeline cards -->
     <!-- Timeline cards are now inside a horizontally scrollable container -->
-    <div class="timeline-cards">
+    <div class="timeline-cards"> <!-- Container for all timeline cards, styled to scroll horizontally -->
       <!-- Card 1: Early Days -->
       <div onclick="window.open('https://www.intel.com/content/www/us/en/history/virtual-vault/articles/intels-founding.html', '_blank');" style="cursor:pointer;">
-        <div class="card-main">
-          <h2>1968</h2>
-          <h3>Founding and First Innovations</h3>
-          <img src="img/1.jpg" alt="Intel Founding" />
+        <!-- Each card opens a link in a new tab when clicked -->
+        <div class="card-main"> <!-- Main content of the card -->
+          <h2>1968</h2> <!-- Year of the event -->
+          <h3>Founding and First Innovations</h3> <!-- Title of the event -->
+          <img src="img/1.jpg" alt="Intel Founding" /> <!-- Image for the event -->
         </div>
         <div class="card-description">
           Intel is founded and begins its journey of technological innovation, setting the stage for decades of progress in computing.
+          <!-- Description shown when hovering over the card -->
         </div>
       </div>
-
       <!-- Card 2: Microprocessor Revolution -->
       <div onclick="window.open('https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-intel-4004.html', '_blank');" style="cursor:pointer;">
         <div class="card-main">
@@ -56,7 +55,6 @@
           Intel introduces groundbreaking microprocessors, powering personal computers and transforming technology for everyone.
         </div>
       </div>
-
       <!-- Card 3: PC Era -->
       <div onclick="window.open('https://www.intel.com/content/dam/doc/report/history-1980-annual-report.pdf', '_blank');" style="cursor:pointer;">
         <div class="card-main">
@@ -68,7 +66,6 @@
           The rise of the personal computer brings Intel technology into homes and businesses around the world.
         </div>
       </div>
-
       <!-- Card 4: Environmental Awareness -->
       <div onclick="window.open('https://www.intc.com/intel-online-annual-report/our-capital/natural-capital', '_blank');" style="cursor:pointer;">
         <div class="card-main">
@@ -80,7 +77,6 @@
           Intel begins investing in renewable energy, efficient manufacturing, and environmental initiatives to reduce its impact.
         </div>
       </div>
-
       <!-- Card 5: Modern Commitments -->
       <div onclick="window.open('https://www.intc.com/intel-online-annual-report/our-capital/natural-capital', '_blank');" style="cursor:pointer;">
         <div class="card-main">
@@ -93,7 +89,6 @@
           The company sets bold goals for climate action, water stewardship, and waste reduction, aiming for a more sustainable future.
         </div>
       </div>
-
       <!-- Card 6: Looking Ahead -->
       <div onclick="window.open('https://www.intc.com/news-events/press-releases/detail/1732/remaking-our-company-for-the-future', '_blank');" style="cursor:pointer;">
         <div class="card-main">
@@ -109,6 +104,6 @@
     </div>
     <!-- End of timeline-cards -->
   </section>
-  <p>Scroll to view timeline | Hover over and click the cards to learn more!</p>
+  <p>Scroll to view timeline | Hover over and click the cards to learn more!</p> <!-- Instruction for users -->
 </body>
 </html>
