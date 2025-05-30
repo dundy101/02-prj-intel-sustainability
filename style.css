@@ -183,17 +183,36 @@ section p {
 }
 
 /* Timeline instruction text */
-body > p {
+.timeline-instruction {
   text-align: center;
   color: #0078d4;
-  font-size: 1.2rem;
-  margin: 18px 0 32px 0;
+  font-size: 0.95rem;
+  margin: 8px 0 4px 0; /* Decreased bottom margin for less gap below */
   letter-spacing: 0.5px;
 }
 
 /* Brighten the image in the 6th card using a CSS filter */
 .timeline-cards > div:nth-child(6) img {
   filter: brightness(1.50); /* Makes the image 25% brighter */
+}
+
+/* Style for the "Learn More" links in the three-column section */
+.learn-more-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #0078d4;
+  background: #e6f0fa;
+  padding: 6px 18px;
+  border-radius: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+  font-size: 1rem;
+}
+.learn-more-link:hover {
+  background: #0078d4;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Responsive design for mobile */
